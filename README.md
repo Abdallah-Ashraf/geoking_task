@@ -4,7 +4,7 @@ Shopping Cart is a  solution that look into many Items and display results from
 all the available Categories and Brands, add Shopping Cart items and save as order
 
 ## Requirements
-The project is based on the version `7.x` of the Laravel framework,
+The project is based on the version `8.x` of the Laravel framework,
 so make sure that you are satisfying the requirements
 listed in the [framework's documentation](https://laravel.com/docs/6.x#server-requirements)
 
