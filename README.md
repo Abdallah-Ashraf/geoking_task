@@ -31,6 +31,7 @@ composer install
 ```bash
 cp .env.example .env
 ```
+update .env with database name , username and password .
 6. Generate app secret key
 ```bash
 php artisan key:generate
