@@ -8,6 +8,9 @@ import { Head } from '@inertiajs/inertia-vue3';
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 Users 's Locations
             </h2>
+            <div>
+                Zoom Map in or out to show user 's Markers
+            </div>
         </template>
 
         <div class="py-12">

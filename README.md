@@ -17,7 +17,7 @@ git clone  https://github.com/Abdallah-Ashraf/geoking_task.git
 ```
 2. Get into the directory
 ```bash
-cd ShoppingCart
+cd geoking_task
 ```
 3. Check that your environment satisfy the requirements
 ```bash
@@ -35,11 +35,32 @@ cp .env.example .env
 ```bash
 php artisan key:generate
 ```
-7. import Database
+
+
+7. install npm 
 ```bash
-generate Mysql Database name="geoking_task" user="root" password="" import geoking_task.sql file from repository
-``` 
-feel free to change Database name or user or password  but ensure you add correct value in .env file
+npm i
+```
+
+8. compile js and vue files
+```bash
+npm run dev
+```
+9. Database Tables Migration 
+```bash
+php artisan migrate
+```
+
+10. add initial user with two locations 
+```bash
+php artisan db:seed
+```
+feel free to register your user and add your locations want to ses as markers in google maps.
+###Initial Data 
+
+email : admin@gmail.com
+
+password : password
 
 Now you have a ready to use clone of the application.
 
