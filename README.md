@@ -6,7 +6,7 @@ all the available Categories and Brands, add Shopping Cart items and save as ord
 ## Requirements
 The project is based on the version `8.x` of the Laravel framework,
 so make sure that you are satisfying the requirements
-listed in the [framework's documentation](https://laravel.com/docs/6.x#server-requirements)
+listed in the [framework's documentation](https://laravel.com/docs/8.x#server-requirements)
 
 ## Installation
 Run the following commands in order to get a ready to use clone of the application:
