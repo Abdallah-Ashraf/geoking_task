@@ -19,7 +19,7 @@ createInertiaApp({
             .use(plugin)
             .use(VueGoogleMaps, {
                 load: {
-                    key: 'AIzaSyDqaRfa1C3MYqadnPN9OAyAuZMQGRS00QM',
+                    key: 'AIzaSyCJbBw4EU_qRk8lE39mc8kUFWrFvsylZYY',
                 },
             })
             .mixin({ methods: { route } })
